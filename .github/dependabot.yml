@@ -1,0 +1,61 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /examples/cloud_run_cloud_events
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /examples/cloud_run_cloud_events
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /examples/cloud_run_decorator
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /examples/cloud_run_decorator
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /examples/cloud_run_event
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /examples/cloud_run_event
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /examples/cloud_run_http
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /examples/cloud_run_http
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /examples/docker-compose
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /examples/docker-compose
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /examples/skaffold
+    schedule:
+      interval: daily

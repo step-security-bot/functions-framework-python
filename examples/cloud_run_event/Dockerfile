@@ -1,6 +1,6 @@
 # Use the official Python image.
 # https://hub.docker.com/_/python
-FROM python:3.7-slim
+FROM python:3.7-slim@sha256:fbb1606214af72cab47a4caf66ac0b94a343613b2a833c022a6de1acfbe84499
 
 # Copy local code to the container image.
 ENV APP_HOME /app
